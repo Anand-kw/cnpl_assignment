@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1200px) {
+    ._hd-img img {
+        padding: 0px 0px;
+        width: 200px;
+    }
+    ._hd-img {
+    top: 20px;
+    }
+}
+@media only screen and (max-width: 1028px) 
+{
+    .pg_col-1
+    {
+        display: none;
+    }
+    .pg_col-2
+    {
+        width: 75%;
+    }
+    ._hd-img
+    {
+        display: none;
+    }
+    .user-card h2 , .user-card p
+    {
+        text-align: center;
+    }
+    .coursesContainer{
+        grid-template-columns: 1fr;
+    }
+    ._opn-left-navbar{
+        display: block !important;
+    }
+    .middle-nav-top ul{
+        padding-left: 10px !important;
+    }
+    .closeBtn-1{
+        display: block !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .closeBtn-2{
+        display: block !important;
+    }
+    .header_aside {
+        margin-top: 15px;
+    }
+    .pg_col-2
+    {
+        width: 100%;
+    }
+    .pg_col-3{
+        display: none;
+    }
+    .sidebar
+    {
+        height: 100vh;
+    }
+    #showProfile{
+        display: block !important;
+    }
+}
+@media only screen and (min-width: 600px) {}
